@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    background-size: cover;
+    background-color: black;
+    max-width: 380px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;    
+}
+
+header,
+.logo{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    margin-right: 10px;
+    width: 88px;
+    font-weight: 800;
+}
+
+.container img{
+    width: 68px;
+    border-radius: 10px;
+}
+
+h5{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.chip {
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+}  
+
+.card-detail{
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .card-detail{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.name{
+    margin-top: 5px;
+}
+
+.number{
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.valid-date{
+    margin-top: 30px;
+    line-height: 1.9;
+}  */
+
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3f2fd;
+}
+
+.container {
+  position: relative;
+  background-color: black;
+  background-size: cover;  
+  padding: 25px;
+  border-radius: 28px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header,
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 88px;
+    background-color: aliceblue;
+    margin-right: 10px;
+}
+
+h5{
+    font-weight: 900;
+    color: #fff;
+}
+
+header .chip {
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+h6{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container .card-details{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+h5.name{
+    margin-top: 5px;
+}
+
+h5.number{
+    margin-top: 40px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
